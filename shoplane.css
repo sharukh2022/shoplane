@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+}
+#topbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 140px;
+    box-shadow: 0px 5px 5px darkgrey;
+    position: fixed;
+    top: 0;
+    z-index: +1;
+    background-color: white;
+    box-sizing: border-box;
+}
+#search-options{
+    width: 500px;
+}
+.second-link{
+    font-size: 15px;
+    margin-left: 50px;
+}
+#animated-outer-div{
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#animated-part{
+    display: grid;
+    grid-template-columns: 100% 100% 100% 100%;
+    animation: move 8s ease-in-out 2s infinite forwards ;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%); 
+    }
+    75%{
+        transform: translateX(-300%); 
+    }
+    100%{
+        transform: translateX(-300%); 
+    }
+}
+.animated-divs{
+    text-align: center;
+}
+.img{
+    width: 80%;
+    height: 300px;
+}
+.animated-btns{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    border: none;
+}
+#animated-btns{
+ text-align: center;
+ margin-top: 20px;
+}
+.bg-color{
+    background-color: grey;
+}
+.bg-color-2{
+    background-color: rgb(179, 174, 174);
+}
+#section-1{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+#cover-div{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+
+}
+.cover-a{
+    width: 10%;
+    height: 300px;
+    background-color:white;
+}
+.cover-b{
+    width: 80%;
+    height: 300px;
+    background-color:transparent;
+}
+#section-2{
+    padding: 0px 135px;  
+    margin-top: 100px;  
+}
+#section-2 h3{
+   font-size: 30px;
+}
+#clothing{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    overflow-x: scroll;
+}
+#clothing img{
+    width:205px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#clothing div{
+    width: 205px;
+    height: 380px;
+    box-shadow: 2px 2px 2px #cccccc;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+#section-3{
+    padding: 0px 135px;    
+}
+#section-3 h3{
+   font-size: 30px;
+}
+#accessories{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+#accessories img{
+    width:206px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#accessories div{
+    width: 205px;
+    height: 380px;
+    box-shadow: 2px 2px 2px #cccccc;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+.image-name{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+.image-brand{
+    font-size: 13px;
+    margin-left: 12px;
+}
+.image-price{
+    font-size: 15px;
+    color:teal;
+    margin-left: 12px;
+    font-weight: 800;
+}
+#footer{
+    width: 100%;
+    height: 270px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#footer h4{
+    font-size: 16px; 
+}
+#details-container{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    margin: 120px 0px 100px 0px;
+}
+#details-container>div{
+    margin-left: 80px;
+    height: 500px;
+}
+#small-images{
+    display: flex;
+}
+#small-images div{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#small-images img{
+    width: 50px;
+    height: 70px;
+    border-radius: 5px;
+}
+#cart-btn{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:teal;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: medium;
+}
+#product-name{
+    font-size: 25px;
+    margin: 0;
+}
+#product-brand{
+    font-size: 20px;
+}
+#product-price{
+    font-size: 18px;
+    color:teal;
+    font-weight: 800;
+}
+#product-description{
+    display: block;
+    font-size: 18px;
+    padding-top: 15px;
+}
+#product-details{
+    font-size: 20px;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.new-image{
+    height: 500px;
+    width: 350px;
+}
+#check-out{
+    margin: 100px 0px;
+}
+.checkout-outer-div img{
+    width: 80px;
+    height: 100px;
+    border-radius: 5px;
+}
+.checkout-outer-div{
+    display: inline-flex;
+    box-shadow: 0px 2px 2px #cccccc ;
+    border-radius: 5px;
+    padding: 10px 70px 10px 10px;
+    position: relative;
+}
+.invisible{
+    display: none;
+}
+.checkout-outer-div:hover .invisible{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    display: block;
+}
+.checkout-outer-div div{
+    margin-left: 20px;
+}
+#ordered-items{
+    display: inline-flex;
+    flex-direction: column;
+}
+#main-check-out{
+    display: flex;
+    padding-left: 150px;
+}
+#check-out-2{
+    margin: 215px 0px;
+}
+#check-out-2 P{
+    font-size: 22PX;
+}
+#check-out-2 div{
+    width: 500px;
+    box-shadow: 0px 2px 2px #cccccc ;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 40px;
+}
+#total-amount{
+    font-size: 22px;
+    font-weight: 800;
+}
+#total-items{
+    font-size: 22px;
+}
+#number-items{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color:teal;
+    position: absolute;
+    transform: translate(15px ,-40px);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#order-placed{
+    margin: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#order-placed div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 235, 27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+}
+#place-order-btn{
+    background-color: teal;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: medium;
+}
+.border-color{
+    border: 3px solid teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
